@@ -71,7 +71,7 @@
 							<li onclick="updateReport('datadensity');">Data Density</li>
 							<li onclick="updateReport('conditions');">Conditions</li>
 							<li onclick="updateReport('conditioneras');">Condition Eras</li>
-							<!-- ko if: (datasource() && datasource().cdmVersion) == 5 -->
+							<!-- ko if: (datasource() && (datasource().cdmVersion === 5)) -->
 							<li onclick="updateReport('measurement');">Measurement</li>
 							<!-- /ko -->
 							<li onclick="updateReport('observations');">Observations</li>
